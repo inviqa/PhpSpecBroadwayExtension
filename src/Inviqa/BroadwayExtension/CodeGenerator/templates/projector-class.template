@@ -1,0 +1,7 @@
+<?php%namespace_block%
+
+use Broadway\ReadModel\Projector;
+use Broadway\ReadModel\RepositoryInterface;
+
+class %name%  extends Projector
+{}

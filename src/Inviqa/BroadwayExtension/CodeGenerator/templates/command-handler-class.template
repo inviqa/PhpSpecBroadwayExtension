@@ -1,0 +1,6 @@
+<?php%namespace_block%
+
+use Broadway\CommandHandling\CommandHandler;
+
+class %name% extends CommandHandler
+{}

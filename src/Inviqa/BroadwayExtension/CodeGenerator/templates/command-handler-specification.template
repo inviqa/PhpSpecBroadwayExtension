@@ -1,0 +1,14 @@
+<?php
+
+namespace %namespace%;
+
+use PhpSpec\ObjectBehavior;
+use Prophecy\Argument;%commandImport%
+
+class %name% extends ObjectBehavior
+{
+    function it_is_a_command_handler()
+    {
+        $this->shouldHaveType('Broadway\CommandHandling\CommandHandler');
+    }%command%
+}

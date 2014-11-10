@@ -1,0 +1,20 @@
+<?php
+
+namespace %namespace%;
+
+use PhpSpec\ObjectBehavior;
+use Broadway\ReadModel\RepositoryInterface;
+use Prophecy\Argument;%eventImport%
+
+class %name% extends ObjectBehavior
+{
+    function let(RepositoryInterface $repository)
+    {
+        $this->beConstructedWith($repository);
+    }
+
+    function it_is_a_projector()
+    {
+        $this->shouldHaveType('Broadway\ReadModel\Projector');
+    }%event%
+}
