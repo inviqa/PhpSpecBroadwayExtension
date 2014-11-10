@@ -1,12 +1,12 @@
 <?php
 
-namespace Inviqa\BroadwayExtension;
+namespace Inviqa\PhpspecBroadwayExtension;
 
-use Inviqa\BroadwayExtension\CodeGenerator\CommandHandlerClassGenerator;
-use Inviqa\BroadwayExtension\CodeGenerator\CommandHandlerSpecificationGenerator;
-use Inviqa\BroadwayExtension\CodeGenerator\ProjectorClassGenerator;
-use Inviqa\BroadwayExtension\CodeGenerator\ProjectorSpecificationGenerator;
-use Inviqa\BroadwayExtension\Console\Command\DescribeCommand;
+use Inviqa\PhpspecBroadwayExtension\CodeGenerator\CommandHandlerClassGenerator;
+use Inviqa\PhpspecBroadwayExtension\CodeGenerator\CommandHandlerSpecificationGenerator;
+use Inviqa\PhpspecBroadwayExtension\CodeGenerator\ProjectorClassGenerator;
+use Inviqa\PhpspecBroadwayExtension\CodeGenerator\ProjectorSpecificationGenerator;
+use Inviqa\PhpspecBroadwayExtension\Console\Command\DescribeCommand;
 use PhpSpec\Extension\ExtensionInterface;
 use PhpSpec\ServiceContainer;
 

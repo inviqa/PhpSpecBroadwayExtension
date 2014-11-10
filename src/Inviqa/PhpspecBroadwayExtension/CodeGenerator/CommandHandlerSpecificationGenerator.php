@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\BroadwayExtension\CodeGenerator;
+namespace Inviqa\PhpspecBroadwayExtension\CodeGenerator;
 
 use PhpSpec\CodeGenerator\Generator\SpecificationGenerator;
 use PhpSpec\Locator\ResourceInterface;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Inviqa\BroadwayExtension\CodeGenerator;
+namespace Inviqa\PhpspecBroadwayExtension\CodeGenerator;
 
 use PhpSpec\CodeGenerator\Generator\ClassGenerator;
 use PhpSpec\Locator\ResourceInterface;
 
-class CommandHandlerClassGenerator extends ClassGenerator
+class ProjectorClassGenerator extends ClassGenerator
 {
     /**
      * @param ResourceInterface $resource
@@ -16,7 +16,7 @@ class CommandHandlerClassGenerator extends ClassGenerator
      */
     public function supports(ResourceInterface $resource, $generation, array $data)
     {
-        $needle = 'CommandHandler';
+        $needle = 'Projector';
         $isHandler = substr($resource->getName(), -strlen($needle)) === $needle;
 
         return 'class' === $generation && $isHandler;
@@ -35,6 +35,6 @@ class CommandHandlerClassGenerator extends ClassGenerator
      */
     protected function getTemplate()
     {
-        return file_get_contents(__DIR__.'/templates/command-handler-class.template');
+        return file_get_contents(__DIR__.'/templates/projector-class.template');
     }
 }

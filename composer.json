@@ -1,0 +1,22 @@
+{
+    "name": "inviqa/phpspec-broadway-extension",
+    "type": "library",
+    "keywords": ["phpspec", "broadway"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "phpspec/phpspec": "dev-master"
+    },
+    "require-dev": {
+        "broadway/broadway": "~0.2.0",
+        "ciaranmcnulty/phpspec-typehintedmethods": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/", "Inviqa\\PhpspecBroadwayExtension": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
