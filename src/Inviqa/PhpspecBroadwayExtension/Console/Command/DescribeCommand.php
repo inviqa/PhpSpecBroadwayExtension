@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\PhpspecBroadwayExtension\Console\Command;
+namespace Inviqa\PhpSpecBroadwayExtension\Console\Command;
 
 use PhpSpec\Console\Command\DescribeCommand as ParentCommand;
 use Symfony\Component\Console\Input\InputInterface;
