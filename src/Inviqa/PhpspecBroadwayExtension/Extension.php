@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\PhpspecBroadwayExtension;
+namespace Inviqa\PhpSpecBroadwayExtension;
 
 use Inviqa\PhpSpecBroadwayExtension\CodeGenerator\CommandHandlerClassGenerator;
 use Inviqa\PhpSpecBroadwayExtension\CodeGenerator\CommandHandlerSpecificationGenerator;
