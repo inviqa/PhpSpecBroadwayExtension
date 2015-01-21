@@ -8,12 +8,13 @@
         "phpspec/phpspec": "dev-master"
     },
     "require-dev": {
-        "broadway/broadway": "~0.2.0",
+        "broadway/broadway": "~0.4.0",
         "ciaranmcnulty/phpspec-typehintedmethods": "dev-master"
     },
     "autoload": {
         "psr-0": {
-            "": "src/", "Inviqa\\PhpSpecBroadwayExtension": "src/"
+            "": "src/",
+            "Inviqa\\PhpSpecBroadwayExtension": "src/"
         }
     },
     "config": {
